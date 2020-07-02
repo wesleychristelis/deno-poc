@@ -52,6 +52,7 @@ After adding a dependency, run `deno run -A Drakefile.ts cache` to update the lo
   * Lodash
   * Deno Standard Lib
 * Database configuration
+ * N/A
 * How to run tests (https://deno.land/manual/testing)
   * Deno includes a test runner out of the box:
     * 1. There is a test runner in the CLI
@@ -125,10 +126,4 @@ https://deno.land/manual/linking_to_external_code#but-what-if-the-host-of-the-ur
       * deno run --allow-read --allow-net --lock=lock.json  mod.ts
 * Most modules take on the "go" convention where modules are named "mod.ts"
 * Version in is the url e.g. https://deno.land/x/drake@v1.2.0/mod.ts
-
-## Tooling 
-
-## Refs
-https://github.com/odziem/nasa-deno
-http://3.84.81.123:8000/index.html
 
